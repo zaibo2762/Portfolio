@@ -68,7 +68,7 @@ main hr{
 .buttons{
     padding: 50px 0;
 }
-.leftsection .btn{
+ .btn{
     padding: 12px;
     background: #1e2167;
     color: white;
@@ -147,10 +147,68 @@ footer{
     padding: 12px 0;
 }
 .thirdsection{
-    height: 80vh;
+    height: 600px;
     max-width: 80vw;
     margin: auto;
 }
 .thirdsection h1{
     font-size: 1.9rem;
+}
+.cards{
+    height: 500px;
+    width: 100%;
+    /* background-color: white; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card{
+    height: 370px;
+    width: 30%;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+.title{
+    font-size: larger;
+    margin-top: 10px;
+    
+}
+.card img{
+    margin-top: 10px;
+    border-bottom: 1px solid black;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.fourthsection{
+    height:350px;
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-info{
+    height: 50px;
+    width: 50%;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+   
+    align-items: center;
+    
+
+}
+.contact-info a{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+.contact-info img{
+    width: 40px;
+    margin-left: 30px;
 }
